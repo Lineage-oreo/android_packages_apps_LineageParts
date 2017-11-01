@@ -105,6 +105,12 @@
     <PreferenceCategory
         android:title="@string/status_bar_brightness_category">
 
+	<com.android.settings.custom.preferences.SystemSettingSwitchPreference
+            android:key="qs_show_brightness_icon"
+            android:title="@string/brightness_icon_title"
+            android:summary="@string/brightness_icon_summary"
+            android:defaultValue="false"/>
+<!--
         <lineageos.preference.LineageSecureSettingSwitchPreference
             android:key="qs_show_brightness_slider"
             android:title="@string/status_bar_brightness_slider_title"
@@ -124,6 +130,7 @@
             android:title="@string/status_bar_toggle_brightness"
             android:summary="@string/status_bar_toggle_brightness_summary"
             android:defaultValue="false" />
+-->
     </PreferenceCategory>
 
 </PreferenceScreen>
